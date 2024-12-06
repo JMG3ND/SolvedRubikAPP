@@ -1,13 +1,15 @@
 <template>
   <div class="visor3d">
-    <Cube3DContainer />
+    <RubikCube />
     <div class="divider">
       <PlaceHolder text="Contenedor de controles" />
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import RubikCube from "./RubikCube.vue";
+</script>
 
 <style scoped>
 .visor3d {
